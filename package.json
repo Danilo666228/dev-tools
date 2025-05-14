@@ -1,17 +1,22 @@
 {
-	"name": "dev-tools",
+	"name": "@requem/dev-tools",
 	"version": "1.0.0",
-	"main": "index.js",
 	"scripts": {},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/Danilo666228/dev-tools.git"
 	},
+	"workspaces": [
+		"tools/*"
+	],
 	"author": "Kovinskiy Danil",
 	"license": "ISC",
 	"bugs": {
 		"url": "https://github.com/Danilo666228/dev-tools/issues"
 	},
 	"homepage": "https://github.com/Danilo666228/dev-tools#readme",
-	"description": ""
+	"description": "",
+	"dependencies": {
+		"prettier": "^3.5.3"
+	}
 }
