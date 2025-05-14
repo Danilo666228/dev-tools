@@ -9,6 +9,7 @@
 	"workspaces": [
 		"tools/*"
 	],
+	"private": false,
 	"author": "Kovinskiy Danil",
 	"license": "ISC",
 	"bugs": {
